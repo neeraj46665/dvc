@@ -39,10 +39,10 @@ jobs:
     - name: Push Results to DVC Remote
       run: dvc push
 
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.name "neeraj singh"
-        git config --global user.email "neeraj@gmail.com"
-        git add .
-        git commit -m "Update pipeline artifacts"
-        git push
+    # - name: Commit and Push Changes
+    #   run: |
+    #     git config --global user.name "neeraj singh"
+    #     git config --global user.email "neeraj@gmail.com"
+    #     git add .
+    #     git commit -m "Update pipeline artifacts"
+    #     git push
